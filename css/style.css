@@ -1,0 +1,63 @@
+h1 {
+	display: inline;
+}
+
+header {
+	background: #3498DB;
+}
+
+.caleta-headline {
+  padding: 40px 0 40px 0;
+  text-align: center;
+}
+
+.caleta-logo {
+  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 10px 0 -10px 0;
+/*  color: #E74C3C;*/
+color: white;
+  font-weight: 100;
+}
+.caleta-tagline {
+	font-weight: 500;
+	color: #efefef;
+
+}
+
+.secciones {
+		padding: 30px 60px 30px 60px;	
+}
+.seccion-uno{
+/*	background: #3498DB;*/
+/*	border-top: 1px solid #95A5A6;*/
+;
+
+
+
+}
+.seccion-dos{
+/*	background: #2ECC71;*/
+/*		border-top: 1px solid #95A5A6;*/
+}
+
+.seccion-tres {
+/*	background: #E67E22;*/
+/*		border-top: 1px solid #95A5A6;*/
+}
+.explicacion {
+	text-align: center;
+	line-height: 1em;
+	padding: 0px 0 60px;
+
+}
+
+.footer {
+	padding-top: 20px;
+	height: 100px;
+	text-align: center;
+	background: #ECF0F1;
+
+}
+p.footer {
+	font-weight: 100;
+}
