@@ -7,7 +7,7 @@ header {
 }
 
 .caleta-headline {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ color: white;
 }
 
 .nav-caletas {
-	background: #34495E;
+	background: #ECF0F1;
 	text-align: center;
 	color: white;
 }
@@ -58,7 +58,7 @@ color: white;
 .explicacion {
 	text-align: center;
 	line-height: 1em;
-	padding: 0px 0 60px;
+	padding: 0px 0 30px;
 
 }
 
