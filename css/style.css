@@ -24,6 +24,17 @@ color: white;
 
 }
 
+.nav-caletas {
+	background: #34495E;
+	text-align: center;
+	color: white;
+}
+
+.li-menu {
+			display: inline;
+		list-style: none;
+		padding: 10px 20px 10px 0;
+}
 .secciones {
 		padding: 30px 60px 30px 60px;	
 }
