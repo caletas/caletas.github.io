@@ -122,6 +122,10 @@ p.footer {
 		line-height: 1em;
 		padding: 0px 20px 35px 20px;
 
+.nav-caletas {
+	display: block;
+}
+
 	}
 
 }
