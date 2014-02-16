@@ -51,6 +51,7 @@ width: 100%;
 	padding: 0px 80px 35px 80px;
 	color: white;
 	font-size: 24pt;
+	text-align: center;
 }
 
 .nav-caletas {
@@ -115,7 +116,7 @@ p.footer {
 }
 
 
-@media (min-width: 768px)  {
+@media (min-width: 480px)  {
 	.explicacion {
 		text-align: center;
 		line-height: 1em;
