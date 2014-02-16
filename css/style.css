@@ -116,17 +116,19 @@ p.footer {
 }
 
 
-@media (min-width: 480px)  {
+@media (max-width: 480px)  {
 	.explicacion {
 		text-align: center;
 		line-height: 1em;
 		padding: 0px 20px 35px 20px;
-
-.nav-caletas {
-	display: block;
 }
+
+.li-menu {
+	display: block;
 
 	}
 
+.caletas-tagline {
+	line-height: 0.9em;
 }
 
