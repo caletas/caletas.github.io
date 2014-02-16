@@ -1,10 +1,31 @@
 body {
-	font-style: "Lato", Helvetica;
+	  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.72222;
+  color: #34495e;
+  background-color: #ffffff;
 }
 
-h1 {
-	display: inline;
+
+p {
+  font-size: 18px;
+  line-height: 1.72222;
+  margin: 0 0 15px;
 }
+h2 {
+	font-weight: 700;
+	display: inline;
+	 font-size: 37px;
+}
+
+
+.lead {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.46428571;
+  font-weight: 300;
+}
+
 
 header {
 	background: #e51f25;
@@ -12,6 +33,10 @@ header {
 
 a {
 	color: #d35400;
+
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 
 a:hover,
@@ -39,6 +64,7 @@ hr {
 
 .caleta-logo {
 width: 100%;
+padding: 0 0 10px;	
 }
 
 .caleta-tagline {
@@ -105,7 +131,7 @@ width: 100%;
 
 .footer {
 	padding-top: 20px;
-	height: 100px;
+	height: 100%;
 	text-align: center;
 	background: #ECF0F1;
 
