@@ -7,7 +7,7 @@ h1 {
 }
 
 header {
-	background: #3498db;
+	background: white;
 
 }
 
@@ -29,20 +29,20 @@ hr {
 }
 
 .link-menu {
-	color: white;
+	color: #d35400;
 }
 
 .caleta-logo {
-	font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 75px/70px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 10px 0 0px 0;
 	/*  color: #E74C3C;*/
-	color: white;
-	font-weight: 300;
+	color: #34495E;
+
 }
 
 .caleta-tagline {
 	font-weight: 500;
-	color: #efefef;
+	color: #7f8c8d;
 }
 
 .caleta-headline {
@@ -53,15 +53,14 @@ hr {
 .explicacion {
 	text-align: center;
 	line-height: 1em;
-	padding: 0px 80px 35px 80px;
+	padding: 0px 80px 0px 80px;
 
 }
 
 .nav-caletas {
-	background: #34495e;
+	background: white;
 	text-align: center;
-	color: white;
-margin: 0;
+
 }
 
 .ul-menu {
@@ -71,7 +70,7 @@ margin: 0;
 .li-menu {
 	display: inline;
 	list-style: none;
-	padding: 10px 20px 10px 0;
+	padding: 0px 20px 0px 0;
 }
 
 
