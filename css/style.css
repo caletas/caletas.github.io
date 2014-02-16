@@ -71,6 +71,7 @@ padding: 0 0 10px;
 	font-weight: 100;
 	color: #efefef;
 	font-size: 16pt;
+	margin: 0;
 }
 
 .explicacion {
@@ -154,7 +155,8 @@ p.footer {
 
 	}
 
-.caletas-tagline {
-	line-height: 0.9em;
+.caleta-tagline {
+line-height: 1em;
+padding: 10px 0 0 0;
 }
 
