@@ -12,6 +12,8 @@ p {
   line-height: 1.72222;
   margin: 0 0 15px;
 }
+
+
 h2 {
 	font-weight: 700;
 	display: inline;
@@ -113,6 +115,8 @@ padding: 0 0 10px;
 	transition: 0.5s;
 
 }
+
+
 .seccion-uno:hover {
 
 	/*	background: #3498DB;*/
