@@ -1,0 +1,9 @@
+name: "Caletas"
+description: "Guía para acceder a páginas bloqueads y chats encriptados"
+
+url: "http://0.0.0.0:4000"
+
+paginate: 1
+
+markdown: rdiscount
+permalink: pretty
