@@ -20,19 +20,6 @@ h2 {
 	 font-size: 37px;
 }
 
-
-.lead {
-  margin-bottom: 30px;
-  font-size: 28px;
-  line-height: 1.46428571;
-  font-weight: 300;
-}
-
-
-header {
-	background: #e51f25;
-}
-
 a {
 	color: #d35400;
 
@@ -47,19 +34,16 @@ a:focus {
 	text-decoration: none;
 }
 
+header {
+	background: #e51f25;
+}
+
+
 hr {
 	margin: 0;
 border:0;
 border-top: 1px solid #efefef;
 
-}
-
-.lead{
-	font-size: 24px;
-}
-
-.link-menu {
-	color: black;
 }
 
 .caleta-head {
@@ -86,11 +70,16 @@ padding: 0 0 10px;
 	text-align: center;
 }
 
-.nav-caletas {
+nav {
 	background: #efefef;
 	text-align: center;
 	margin: 0;
 }
+
+.link-menu {
+	color: black;
+}
+
 
 .ul-menu {
 	margin: 0 0 0 -25px;
@@ -102,6 +91,12 @@ padding: 0 0 10px;
 	padding: 10px 20px 10px 0;
 }
 
+.lead {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 1.46428571;
+  font-weight: 300;
+}
 
 .secciones {
 	position: inherit;
@@ -141,6 +136,7 @@ padding: 0 0 10px;
 
 	padding: 60px;
 }
+
 .footer {
 	padding-top: 20px;
 	height: 100%;
