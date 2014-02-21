@@ -43,7 +43,11 @@ hr {
 	margin: 0;
 border:0;
 border-top: 1px solid #efefef;
+}
 
+img {
+
+	padding: 30px;
 }
 
 .caleta-head {
@@ -108,9 +112,13 @@ nav {
 	background: #f9f9f9;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-
 }
 
+.secciones-no-hover {
+	position: inherit;
+	margin: 0;
+	padding: 60px 60px 30px 60px;	
+}
 
 .seccion-uno:hover {
 
