@@ -176,25 +176,25 @@ p.footer {
 @media (max-width: 480px)  {
 
 	h2 {
-	font-weight: 700;
-	display: inline;
-	font-size: 30px;
-	line-height: 1.2em;
-}
+		font-weight: 700;
+		display: inline;
+		font-size: 30px;
+		line-height: 1.2em;
+	}
 
-p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin: 0 0 15px;
-}
+	p {
+		font-size: 18px;
+		line-height: 1.5;
+		margin: 0 0 15px;
+	}
 
 
-.lead {
-	margin: 10px 0 30px 0;
-	font-size: 22px;
-	line-height: 1.5em;
-	font-weight: 300;
-}
+	.lead {
+		margin: 10px 0 30px 0;
+		font-size: 22px;
+		line-height: 1.5em;
+		font-weight: 300;
+	}
 	.explicacion {
 		text-align: center;
 		line-height: 1em;
@@ -211,14 +211,14 @@ p {
 	}
 
 	.notification {
-	padding: 7px 15px;
-	background: #ffdc24;
-	text-align: center;
-	font-size: 14px;
-	line-height: 1.2em;
-}
+		padding: 7px 15px;
+		background: #ffdc24;
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.2em;
+	}
 
-.footer {
-	padding: 15px 15px;
-}
+	.footer {
+		padding: 15px 15px;
+	}
 
