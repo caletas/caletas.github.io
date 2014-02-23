@@ -1,31 +1,31 @@
 body {
-	  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.72222;
-  color: #34495e;
-  background-color: #ffffff;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.72222;
+	color: #34495e;
+	background-color: #ffffff;
 }
 
 
 p {
-  font-size: 18px;
-  line-height: 1.72222;
-  margin: 0 0 15px;
+	font-size: 18px;
+	line-height: 1.72222;
+	margin: 0 0 15px;
 }
 
 
 h2 {
 	font-weight: 700;
 	display: inline;
-	 font-size: 37px;
+	font-size: 37px;
 }
 
 a {
 	color: #d35400;
 
-  text-decoration: none;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+	text-decoration: none;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
 }
 
 a:hover,
@@ -41,8 +41,8 @@ header {
 
 hr {
 	margin: 0;
-border:0;
-border-top: 1px solid #efefef;
+	border:0;
+	border-top: 1px solid #efefef;
 }
 
 img {
@@ -56,8 +56,8 @@ img {
 }
 
 .caleta-logo {
-width: 100%;
-padding: 0 0 10px;	
+	width: 100%;
+	padding: 0 0 10px;	
 }
 
 .caleta-tagline {
@@ -68,16 +68,29 @@ padding: 0 0 10px;
 }
 
 .explicacion {
-	padding: 0px 80px 35px 80px;
+	padding: 0px 80px 10px 80px;
 	color: white;
 	font-size: 24pt;
 	text-align: center;
 }
 
+.notification {
+	padding: 2px 0;
+	background: #ffdc24;
+	text-align: center;
+	font-size: 14px;
+}
+
+.notification-hidden {
+	display: none;
+}
+
+
 nav {
 	background: #efefef;
 	text-align: center;
 	margin: 0;
+	padding: 5px 0 5px 0;
 }
 
 .link-menu {
@@ -95,17 +108,19 @@ nav {
 	padding: 10px 20px 10px 0;
 }
 
+
+
 .lead {
-  margin-bottom: 30px;
-  font-size: 24px;
-  line-height: 1.46428571;
-  font-weight: 300;
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 1.46428571;
+	font-weight: 300;
 }
 
 .secciones {
 	position: inherit;
 	margin: 0;
-	padding: 60px 60px 30px 60px;	
+	padding: 40px 60px 30px 60px;	
 }
 
 .secciones:hover {
@@ -140,8 +155,7 @@ nav {
 }
 
 
-.comentarios{
-
+.comentarios {
 	padding: 60px;
 }
 
@@ -150,6 +164,7 @@ nav {
 	height: 100%;
 	text-align: center;
 	background: #ECF0F1;
+	position: relative;
 
 }
 p.footer {
@@ -159,19 +174,51 @@ p.footer {
 
 
 @media (max-width: 480px)  {
+
+	h2 {
+	font-weight: 700;
+	display: inline;
+	font-size: 30px;
+	line-height: 1.2em;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 0 15px;
+}
+
+
+.lead {
+	margin: 10px 0 30px 0;
+	font-size: 22px;
+	line-height: 1.5em;
+	font-weight: 300;
+}
 	.explicacion {
 		text-align: center;
 		line-height: 1em;
 		padding: 0px 20px 35px 20px;
-}
-
-.li-menu {
-	display: block;
-
 	}
 
-.caleta-tagline {
-line-height: 1em;
-padding: 10px 20px 0 20px;
+	.li-menu {
+		display: block;
+	}
+
+	.caleta-tagline {
+		line-height: 1em;
+		padding: 10px 20px 0 20px;
+	}
+
+	.notification {
+	padding: 7px 15px;
+	background: #ffdc24;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.footer {
+	padding: 15px 15px;
 }
 
